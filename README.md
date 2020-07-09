@@ -1,6 +1,15 @@
 # The Business Scene Dialogue corpus
 ©2020, The University of Tokyo
 
+# Corpus Description
+
+The Japanese-English business conversation corpus, namely Business Scene Dialogue (BSD) corpus, was constructed in 3 steps: 1) selecting business scenes, 2) writing monolingual conversation scenarios according to the selected scenes, and 3) translating the scenarios into the other language. Half of the monolingual scenarios were written in Japanese and the other half were written in English. The whole construction process was supervised by a person who satisfies the following conditions to guarantee the conversations to be natural:
+ - has the experience of being engaged in language learning programs, especially for business conversations
+ - is able to smoothly communicate with others in various business scenes both in Japanese and English
+ - has the experience of being involved in business
+
+We provide balanced training, development and evaluation splits from BSD corpus. The documents in these sets are balanced in terms of scenes and original languages.
+
 # Corpus Statistics
 
 
@@ -75,20 +84,24 @@
 
 # Corpus Structure
 
-The corpus is structured in json format. Each sentence pair has a sentence number, speaker name in English and Japanese, text in English and Japanese, original language, scene of the scenario (tag), and title of the scenario (title).
+The corpus is structured in json format consisting of documents, which consist of sentence pairs. Each sentence pair has a sentence number, speaker name in English and Japanese, text in English and Japanese, original language, scene of the scenario (tag), and title of the scenario (title).
 
 ```json
 [
-    {
-        "no": 14,
-        "speaker": "Mr. Sam Lee",
-        "ja_speaker": "サム リーさん",
-        "en_sentence": "Would you guys consider a different scheme?",
-        "ja_sentence": "別の事業案も考慮されますか？",
-        "original_language": "en",
-        "tag": "phone call",
-        "title": "Phone: Review spec and scheme"
-    },
+	[
+		{
+			"no": 14,
+			"speaker": "Mr. Sam Lee",
+			"ja_speaker": "サム リーさん",
+			"en_sentence": "Would you guys consider a different scheme?",
+			"ja_sentence": "別の事業案も考慮されますか？",
+			"original_language": "en",
+			"tag": "phone call",
+			"title": "Phone: Review spec and scheme"
+		},
+		...
+	],
+	...
 ]
 ```
 
