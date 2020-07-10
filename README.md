@@ -10,6 +10,11 @@ The Japanese-English business conversation corpus, namely Business Scene Dialogu
 
 We provide balanced training, development and evaluation splits from BSD corpus. The documents in these sets are balanced in terms of scenes and original languages.
 
+|        	| Training 	| Development 	| Evaluation 	|
+|--------	|---------:	|:-----------:	|:----------:	|
+| Total  	|   80,629 	|       2,051 	|      2,120 	|
+| Unique 	|   74,377 	|       2,012 	|      2,070 	|
+
 # Corpus Statistics
 
 
