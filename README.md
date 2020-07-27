@@ -12,8 +12,8 @@ We provide balanced training, development and evaluation splits from BSD corpus.
 
 |        	| Training 	| Development 	| Evaluation 	|
 |--------	|---------:	|:-----------:	|:----------:	|
-| Total  	|   80,629 	|       2,051 	|      2,120 	|
-| Unique 	|   74,377 	|       2,012 	|      2,070 	|
+| Sentences |   20,000 	|       2,051 	|      2,120 	|
+| Scenarios |   670 	|       69	 	|      69	 	|
 
 # Corpus Statistics
 
@@ -21,6 +21,7 @@ We provide balanced training, development and evaluation splits from BSD corpus.
 <table>
 <thead>
   <tr>
+    <th>Data Set</th>
     <th>Scene</th>
     <th>Scenarios</th>
     <th>Sentences</th>
@@ -30,58 +31,159 @@ We provide balanced training, development and evaluation splits from BSD corpus.
 </thead>
 <tbody>
   <tr>
-    <td></td>
+    <td align="center" colspan="2"></td>
     <td align="center" colspan="2">JA-EN</td>
     <td align="center" colspan="2">EN-JA</td>
   </tr>
   <tr>
+    <td rowspan="7">Training</td>
     <td>Face-to-face</td>
-    <td align="right">535</td>
-    <td align="right">16,481</td>
-    <td align="right">458</td>
-    <td align="right">14,858</td>
+    <td align="right">122</td>
+    <td align="right">3525</td>
+    <td align="right">103</td>
+    <td align="right">2986</td>
   </tr>
   <tr>
     <td>Phone call</td>
-    <td align="right">279</td>
-    <td align="right">8,720</td>
-    <td align="right">256</td>
-    <td align="right">7,770</td>
+    <td align="right">68</td>
+    <td align="right">1944</td>
+    <td align="right">75</td>
+    <td align="right">2175</td>
   </tr>
   <tr>
     <td>General chatting</td>
-    <td align="right">233</td>
-    <td align="right">7,674</td>
-    <td align="right">239</td>
-    <td align="right">7,372</td>
+    <td align="right">61</td>
+    <td align="right">1915</td>
+    <td align="right">72</td>
+    <td align="right">1883</td>
   </tr>
   <tr>
     <td>Meeting</td>
-    <td align="right">224</td>
-    <td align="right">7,647</td>
-    <td align="right">265</td>
-    <td align="right">8,952</td>
+    <td align="right">56</td>
+    <td align="right">1964</td>
+    <td align="right">58</td>
+    <td align="right">1787</td>
   </tr>
   <tr>
     <td>Training</td>
-    <td align="right">37</td>
-    <td align="right">1,379</td>
-    <td align="right">47</td>
-    <td align="right">1,549</td>
+    <td align="right">12</td>
+    <td align="right">562</td>
+    <td align="right">19</td>
+    <td align="right">463</td>
   </tr>
   <tr>
     <td>Presentation</td>
-    <td align="right">17</td>
-    <td align="right">499</td>
-    <td align="right">53</td>
-    <td align="right">1,899</td>
+    <td align="right">6</td>
+    <td align="right">607</td>
+    <td align="right">18</td>
+    <td align="right">189</td>
   </tr>
   <tr>
     <td>Total</td>
-    <td align="right">1,325</td>
-    <td align="right">42,400</td>
-    <td align="right">1,318</td>
-    <td align="right">42,400</td>
+    <td align="right">325</td>
+    <td align="right">10,000</td>
+    <td align="right">345</td>
+    <td align="right">10,000</td>
+  </tr>
+  <tr>
+    <td rowspan="7">Development</td>
+    <td>Face-to-face</td>
+    <td align="right">11</td>
+    <td align="right">319</td>
+    <td align="right">12</td>
+    <td align="right">314</td>
+  </tr>
+  <tr>
+    <td>Phone call</td>
+    <td align="right">6</td>
+    <td align="right">176</td>
+    <td align="right">7</td>
+    <td align="right">185</td>
+  </tr>
+  <tr>
+    <td>General chatting</td>
+    <td align="right">7</td>
+    <td align="right">223</td>
+    <td align="right">8</td>
+    <td align="right">248</td>
+  </tr>
+  <tr>
+    <td>Meeting</td>
+    <td align="right">7</td>
+    <td align="right">240</td>
+    <td align="right">7</td>
+    <td align="right">219</td>
+  </tr>
+  <tr>
+    <td>Training</td>
+    <td align="right">1</td>
+    <td align="right">40</td>
+    <td align="right">1</td>
+    <td align="right">23</td>
+  </tr>
+  <tr>
+    <td>Presentation</td>
+    <td align="right">1</td>
+    <td align="right">31</td>
+    <td align="right">1</td>
+    <td align="right">33</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td align="right">34</td>
+    <td align="right">997</td>
+    <td align="right">35</td>
+    <td align="right">1054</td>
+  </tr>
+  <tr>
+    <td rowspan="7">Evaluation</td>
+    <td>Face-to-face</td>
+    <td align="right">12</td>
+    <td align="right">381</td>
+    <td align="right">11</td>
+    <td align="right">345</td>
+  </tr>
+  <tr>
+    <td>Phone call</td>
+    <td align="right">6</td>
+    <td align="right">163</td>
+    <td align="right">7</td>
+    <td align="right">212</td>
+  </tr>
+  <tr>
+    <td>General chatting</td>
+    <td align="right">7</td>
+    <td align="right">211</td>
+    <td align="right">8</td>
+    <td align="right">212</td>
+  </tr>
+  <tr>
+    <td>Meeting</td>
+    <td align="right">7</td>
+    <td align="right">228</td>
+    <td align="right">7</td>
+    <td align="right">229</td>
+  </tr>
+  <tr>
+    <td>Training</td>
+    <td align="right">1</td>
+    <td align="right">38</td>
+    <td align="right">1</td>
+    <td align="right">30</td>
+  </tr>
+  <tr>
+    <td>Presentation</td>
+    <td align="right">1</td>
+    <td align="right">31</td>
+    <td align="right">1</td>
+    <td align="right">40</td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td align="right">34</td>
+    <td align="right">1052</td>
+    <td align="right">35</td>
+    <td align="right">1068</td>
   </tr>
 </tbody>
 </table>
