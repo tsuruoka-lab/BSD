@@ -213,7 +213,7 @@ The corpus is structured in json format consisting of documents, which consist o
 ```
 
 ## License
-Our dataset is released under the [Creative Commons Attribution-ShareAlike (CC BY-SA) license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+Our dataset is released under the [Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
 
 ## Reference
 If you use this dataset, please cite the following paper:
