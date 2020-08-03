@@ -235,3 +235,6 @@ Matīss Rikters, Ryokan Ri, Tong Li, and Toshiaki Nakazawa (2019). "[Designing t
     pages = "54--61"
 }
 ```
+
+## Acknowledgements
+This work was supported by "Research and Development of Deep Learning Technology for Advanced Multilingual Speech Translation", the Commissioned Research of National Institute of Information and Communications Technology (NICT), JAPAN.
