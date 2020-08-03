@@ -8,7 +8,7 @@ The Japanese-English business conversation corpus, namely Business Scene Dialogu
  - is able to smoothly communicate with others in various business scenes both in Japanese and English
  - has the experience of being involved in business
 
-We provide balanced training, development and evaluation splits from BSD corpus. The documents in these sets are balanced in terms of scenes and original languages.
+We provide balanced training, development and evaluation splits from BSD corpus. The documents in these sets are balanced in terms of scenes and original languages. In this repository we publicly share the full development and evaluation sets and a part of the training data set.
 
 |        	| Training 	| Development 	| Evaluation 	|
 |--------	|---------:	|:-----------:	|:----------:	|
