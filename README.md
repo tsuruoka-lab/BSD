@@ -195,19 +195,22 @@ The corpus is structured in json format consisting of documents, which consist o
 
 ```json
 [
-	[
-		{
-			"no": 14,
-			"speaker": "Mr. Sam Lee",
-			"ja_speaker": "サム リーさん",
-			"en_sentence": "Would you guys consider a different scheme?",
-			"ja_sentence": "別の事業案も考慮されますか？",
-			"original_language": "en",
-			"tag": "phone call",
-			"title": "Phone: Review spec and scheme"
-		},
-		...
-	],
+    {
+        "id": "190315_E001_17",
+        "tag": "training",
+        "title": "Training: How to do research",
+        "original_language": "en",
+        "conversation": [
+            {
+                "no": 1,
+                "en_speaker": "Mr. Ben Sherman",
+                "ja_speaker": "ベン シャーマンさん",
+                "en_sentence": "I will be teaching you how to conduct research today.",
+                "ja_sentence": "今日は調査の進め方についてトレーニングします。"
+            },
+		        ...
+	      ]
+      },
 	...
 ]
 ```
