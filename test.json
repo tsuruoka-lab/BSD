@@ -127,14 +127,14 @@
             {
                 "no": 18,
                 "en_speaker": "Mr. Wayne Willis",
-                "ja_speaker": "ウェインウィリスさん",
+                "ja_speaker": "ウェイン ウィリスさん",
                 "en_sentence": "Yes, so we can control the ship loading and schedule.",
                 "ja_sentence": "そう、出荷量やスケジュールも管理できます。"
             },
             {
                 "no": 19,
                 "en_speaker": "Mr. Wayne Willis",
-                "ja_speaker": "ウェインウィリスさん",
+                "ja_speaker": "ウェイン ウィリスさん",
                 "en_sentence": "Having control over the supply chain is definitely helpful.",
                 "ja_sentence": "サプライチェーンを管理できるのはとても助かります。"
             },
@@ -3588,7 +3588,7 @@
             {
                 "no": 2,
                 "en_speaker": "Mr. Sam Lee",
-                "ja_speaker": "サム リーさん",
+                "ja_speaker": "サム リー さん",
                 "en_sentence": "Thank you for coming to our office today.",
                 "ja_sentence": "今日はうちのオフィスまで来て頂いて、ありがとうございます。"
             },
@@ -7975,7 +7975,7 @@
             {
                 "no": 19,
                 "en_speaker": "Ben",
-                "ja_speaker": "クリスチャン",
+                "ja_speaker": "ベン",
                 "en_sentence": "I'd prefer to visit them in person and check out their equipment before making an order through a faceless computer screen.",
                 "ja_sentence": "PCのスクリーンで無人注文するよりも、実際に担当者に会って装置など確認してから注文する方がしっくりくるな。"
             },
@@ -7996,7 +7996,7 @@
             {
                 "no": 22,
                 "en_speaker": "Ben",
-                "ja_speaker": "クリスチャン",
+                "ja_speaker": "ベン",
                 "en_sentence": "Thanks Christian.",
                 "ja_sentence": "クリスチャン、ありがとう。"
             }
