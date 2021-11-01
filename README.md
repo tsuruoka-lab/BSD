@@ -1,6 +1,9 @@
 # The Business Scene Dialogue corpus
 ©2020, The University of Tokyo
 
+# Updates
+November 2, 2021: The data are updated by fixing incorrect speaker information and some misspellings in the conversation text.
+
 # Corpus Description
 
 The Japanese-English business conversation corpus, namely Business Scene Dialogue (BSD) corpus, was constructed in 3 steps: 1) selecting business scenes, 2) writing monolingual conversation scenarios according to the selected scenes, and 3) translating the scenarios into the other language. Half of the monolingual scenarios were written in Japanese and the other half were written in English. The whole construction process was supervised by a person who satisfies the following conditions to guarantee the conversations to be natural:
@@ -207,8 +210,8 @@ The corpus is structured in json format consisting of documents, which consist o
                 "ja_speaker": "ベン シャーマンさん",
                 "en_sentence": "I will be teaching you how to conduct research today.",
                 "ja_sentence": "今日は調査の進め方についてトレーニングします。"
-            },
-		        ...
+          },
+            ...
 	      ]
       },
 	...
