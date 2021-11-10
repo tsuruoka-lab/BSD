@@ -2,7 +2,7 @@
 ©2020, The University of Tokyo
 
 # Updates
-November 10, 2021: Further fix for the speaker information.
+November 10, 2021: Further fix for the speaker information.  
 November 2, 2021: The data are updated by fixing incorrect speaker information and some misspellings in the conversation text.
 
 # Corpus Description
